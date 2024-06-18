@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card Flexbox</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      width: 250px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin: 5px 0;
+    }
+
+    .card p {
+      margin: 5px 0;
+    }
+
+    .card .price {
+      font-weight: bold;
+    }
+    .card .size {
+        font-size: smaller;
+        font-weight: bold;
+        font-style: var(1px);
+    }
+
+    .card .discount {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+
+    .card .rating {
+      color: gold;
+    }
+
+    .card .reviews {
+      font-style: italic;
+    }
+
+    .card button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <img src="D:\js refresher\.html class\download.jfif" alt="Indian Army ">
+      <h3>Indian Army</h3>
+      <p class="price">$13.99</p>
+      <p class="size">(M)(L)(XL)</p>
+      <p class="discount">40% OFF</p>
+      <p class="rating">Rating: 5.0</p>
+      <p class="reviews">98 reviews</p>
+      <button>BUY</button>
+    </div>
+    
+    <div class="card">
+      <img src="D:\js refresher\.html class\download (1).jfif" alt="HUSH PUPPIES ">
+      <h3>HUSH PUPPIES</h3>
+      <p class="price">$16.99</p>
+      <p class="size">(6)(7)(8)(9)</p>
+      <p class="discount">25% OFF</p>
+      <p class="rating">Rating: 4.7</p>
+      <p class="reviews">68 reviews</p>
+      <button>BUY</button>
+    </div>
+    <div class="card">
+        <img src="D:\js refresher\.html class\download (2).jfif" alt="Ripped Jeans Jacket">
+        <h3>Ripped Jeans Jacket</h3>
+        <p class="price">$13.99</p>
+        <p class="size">(M)(L)(XL)</p>
+        <p class="discount">50% OFF</p>
+        <p class="rating">Rating: 4.3</p>
+        <p class="reviews">80 reviews</p>
+        <button>BUY</button>
+      </div>
+      <div class="card">
+        <img src="D:\js refresher\.html class\download (3).jfif" alt="Flared Mini Skirt">
+        <h3>Flared Mini Skirt</h3>
+        <p class="price">$15.99</p>
+        <p class="size">(M)(L)(XL)</p>
+        <p class="discount">30% OFF</p>
+        <p class="rating">Rating: 4.9</p>
+        <p class="reviews">60 reviews</p>
+        <button>BUY</button>
+      </div>
+  </div>
+
+</body>
+</html>
